@@ -173,7 +173,7 @@ resource "aws_instance" "demoinstance1" {
   # SSH into instance 
   connection {
     # The default username for our AMI
-    user = "ec2-user"
+    user = "ubuntu"
     # Private key for connection
     private_key = "${file(var.private_key)}"
     # Type of connection
