@@ -34,7 +34,7 @@ variable "subnet1_cidr" {
 
 # Defining AMI
 variable "ami" {
-  default = { eu-north-1 = "ami-0c1ac8a41498c1a9c "}
+  default = { eu-north-1 = "ami-0c1ac8a41498c1a9c"}
 }
 
 # Defining Instace Type
