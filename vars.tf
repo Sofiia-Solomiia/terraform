@@ -34,11 +34,11 @@ variable "subnet1_cidr" {
 
 # Defining AMI
 variable "ami" {
-  default = { eu-north-1 = "ami-0914547665e6a707c"}
+  default = { eu-north-1 = "ami-0dd574ef87b79ac6c"}
 }
 
 # Defining Instace Type
 variable "instancetype" {
-  default = "t2.medium"
+  default = "t3.micro"
 }
 
