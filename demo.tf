@@ -153,7 +153,7 @@ resource "aws_instance" "demoinstance1" {
 
   # Attaching Tag to Instance 
   tags = {
-    Name = "Demo-Instance"
+    Name = "Terraform-Instance"
   }
    
   # Root Block Storage
