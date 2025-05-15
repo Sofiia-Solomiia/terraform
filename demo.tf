@@ -189,8 +189,8 @@ resource "aws_instance" "demoinstance1" {
       "sudo systemctl start docker",
       "sudo usermod -aG docker ${self.tags.Name}",
       "sudo chmod 666 /var/run/docker.sock",
-      "docker pull dhruvin30/dhsoniweb:v1",
-      "docker run -d -p 80:80 dhruvin30/dhsoniweb:v1"
+      "docker pull sofiasolomiia/weather-page",
+      "docker run -d -p 80:80 sofiasolomiia/weather-page"
     ]
   }
 }
